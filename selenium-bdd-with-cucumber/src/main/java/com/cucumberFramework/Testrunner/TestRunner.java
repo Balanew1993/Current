@@ -36,7 +36,7 @@ package com.cucumberFramework.Testrunner;
 	        testNGCucumberRunner.runCucumber(cucumberFeature.getCucumberFeature());
 	    }
 	 
-	    @DataProvider
+	    @DataProvider()
 	    public Object[][] features() {
 	        return testNGCucumberRunner.provideFeatures();
 	    }

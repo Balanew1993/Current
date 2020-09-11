@@ -1,7 +1,8 @@
-2020-06-12 13:06:478 INFO  ServiceHooks:35 - Validation of the Login is Failed
-2020-06-12 13:06:379 INFO  SamplePagePR:78 -  Logged in to Application 
-2020-06-12 13:06:384 INFO  ServiceHooks:49 - Validation of the Login is pass
-2020-06-12 13:06:691 INFO  SamplePagePR:78 -  Logged in to Application 
-2020-06-12 13:06:693 INFO  ServiceHooks:49 - Validation of the Login Profile2 is pass
-2020-06-12 13:06:427 INFO  SamplePagePR:78 -  Logged in to Application 
-2020-06-12 13:06:430 INFO  ServiceHooks:49 - Validation of the Login Profile2 is pass
+2020-09-09 12:09:18 INFO  SamplePagePR:120 -  Logged in to Application 
+2020-09-09 12:09:29 INFO  ServiceHooks:49 - Validation of the Login is pass
+2020-09-09 12:09:37 INFO  SamplePagePR:120 -  Logged in to Application 
+2020-09-09 12:09:38 INFO  ServiceHooks:49 - Validation of the Login is pass
+2020-09-09 12:09:761 INFO  SamplePagePR:120 -  Logged in to Application 
+2020-09-09 12:09:768 INFO  ServiceHooks:49 - Validation of the Login is pass
+2020-09-09 12:09:116 INFO  SamplePagePR:120 -  Logged in to Application 
+2020-09-09 12:09:119 INFO  ServiceHooks:49 - Validation of the Login is pass

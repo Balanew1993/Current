@@ -30,7 +30,7 @@ public class ServiceHooks {
 	public void endTest(Scenario scenario) {
 		if (scenario.isFailed()) 
 		{
-			try 
+		 try 
 			{
 				log.info(scenario.getName() + " is Failed");
 				final byte[] screenshot = ((TakesScreenshot) BaseClass.driver).getScreenshotAs(OutputType.BYTES);

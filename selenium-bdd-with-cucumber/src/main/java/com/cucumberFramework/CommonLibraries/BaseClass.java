@@ -3,6 +3,8 @@ package com.cucumberFramework.CommonLibraries;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.interactions.Action;
+import org.openqa.selenium.interactions.Actions;
 
 import com.cucumberFramework.enums.Browsers;
 import com.cucumberFramework.enums.OS;
@@ -27,6 +29,9 @@ public class BaseClass {
 				System.setProperty("webdriver.chrome.driver","./Drivers/chromedriver.exe");
 				driver = new ChromeDriver();
 				driver.manage().window().maximize();
+				//driver.manage().timeouts();
+				Actions net=new Actions(driver);			
+				
 			} 
 			else if (browser.equalsIgnoreCase(Browsers.FIREFOX.name())) 
 			{

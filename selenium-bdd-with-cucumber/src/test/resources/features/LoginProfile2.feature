@@ -3,7 +3,7 @@ Feature: LoginProfile2
 
 ## @author Bala
 
-  Scenario Outline: Validation of the Login Profile2
+  Scenario Outline: Validation of the Login 
    Given I am on the Page "<URL>" with "<Username>" and "<Password>"
    
    Examples:
