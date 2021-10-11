@@ -27,4 +27,10 @@ public class SamplePageSD extends BaseClass{
       System.out.println("Closed the Method");
     }
     
+    @Given("^I am on the Page$")
+    public void i_am_on_the_page() throws Throwable {
+      System.out.println("Entered the Method");
+      Assert.assertTrue(samplePage.Login());
+      System.out.println("Closed the Method");
+    }
 }
